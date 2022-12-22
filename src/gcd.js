@@ -2,6 +2,7 @@ import greetings from './cli.js';
 import { getRandomInt, startGame } from './index.js';
 
 const name = greetings();
+console.log('Find the greatest common divisor of given numbers.');
 
 const largestDivisor = (num1, num2) => {
   let x = num1;
@@ -17,8 +18,6 @@ const largestDivisor = (num1, num2) => {
 };
 
 const gcdGames = () => {
-  console.log('Find the greatest common divisor of given numbers.');
-
   const num1 = getRandomInt(100);
   const num2 = getRandomInt(100);
 
