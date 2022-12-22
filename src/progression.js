@@ -2,7 +2,7 @@ import greetings from './cli.js';
 import { getRandomInt, startGame } from './index.js';
 
 const name = greetings();
-console.log('Find the greatest common divisor of given numbers.');
+console.log('What number is missing in the progression?');
 
 const geometrciSequence = (max = 10) => {
   const arr = [];
