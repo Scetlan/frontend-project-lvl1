@@ -8,7 +8,7 @@ console.log("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
 const evenGames = () => {
   const question = getRandomInt(30);
-  const correctAnswer = isEven();
+  const correctAnswer = isEven(question);
 
   return { name, question, correctAnswer };
 };
