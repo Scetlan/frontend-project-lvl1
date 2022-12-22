@@ -11,7 +11,7 @@ const evenGames = () => {
   const question = getRandomInt(30);
   const correctAnswer = isEven();
 
-  return { name: name, question: question, correctAnswer: correctAnswer };
+  return { name, question, correctAnswer };
 };
 
 export default () => startGame(evenGames);

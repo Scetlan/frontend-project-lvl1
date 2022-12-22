@@ -32,7 +32,7 @@ const calcGame = () => {
 
   const correctAnswer = calcExpression(num1, num2, sign);
 
-  return { name: name, question: question, correctAnswer: correctAnswer };
+  return { name, question, correctAnswer };
 };
 
 export default () => startGame(calcGame);
