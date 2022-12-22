@@ -18,11 +18,11 @@ const calcExpression = (num1, num2, sign) => {
   }
   return 'error';
 };
+
 const name = greetings();
+console.log('What is the result of the expression?');
 
 const calcGame = () => {
-  console.log('What is the result of the expression?');
-
   const maxNum = 50;
 
   const num1 = getRandomInt(maxNum);
